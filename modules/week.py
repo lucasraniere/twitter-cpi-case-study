@@ -4,14 +4,21 @@ class Week:
     def __init__(self, week_number, week_start, deponents):
         self.number = week_number
         self.start = week_start
-        self.end = self.date_to_string(self.date_sum(self.string_to_date(week_start), 6))
+        self.end = self.week_end(week_start)
         self.deponents = deponents
         self.tweets_amount = None
         self.top_10_hashtags = None
         self.info = None
         self.days = None
+        self.initiate_week()
+
+    def initiate_week(self):
         self.set_week_days()
         self.generate_info()
+
+    def week_end(self, week_start):
+        week_end = self.date_sum(self.string_to_date(week_start), 6)
+        return self.date_to_string(week_end)
 
     def date_to_string(self, date):
         return date.strftime('%Y-%m-%d')
@@ -19,8 +26,8 @@ class Week:
     def string_to_date(self, date):
         return datetime.datetime.strptime(date, '%Y-%m-%d')
 
-    def date_sum(self, date, n):
-        return date + datetime.timedelta(days=n)
+    def date_sum(self, date, number):
+        return date + datetime.timedelta(days=number)
 
     def set_week_days(self):
         self.days = []
