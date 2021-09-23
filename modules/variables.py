@@ -33,7 +33,7 @@ hashtag_media = [
        'jr1', 'globonews25anos', 'mourabrasilnabandnewsfm', 'salvesalvebandnews', 'felipemourabrasil',
        'jornaldamanha', 'ospingosnosis', 'tecnohour', 'diáriosemanal', 'bandnoticias',
        'jornaldacnn', 'thevoicekids', 'globonewsnuncadesliga', 'tvcultura', 'manoamano',
-       'cnnnovodia', 'hnt'
+       'cnnnovodia', 'hnt', 'livecnnbrasil', 'acessolivre', 'materia', 'artigo'
 ]
 
 week_list = [
@@ -180,15 +180,15 @@ week_list = [
        #               'day_5': ['Francisco Maximiano'] 
        #        }
        # },
-       {
-              'week_number': 16,
-              'week_start': '2021-08-22',
-              'deponents': {
-                     'day_3': ['Emanuel Cartori'],
-                     'day_4': ['Roberto Pereira Ramos Jr'],
-                     'day_5': ['josé Ricardo Santana']
-              }
-       },
+       # {
+       #        'week_number': 16,
+       #        'week_start': '2021-08-22',
+       #        'deponents': {
+       #               'day_3': ['Emanuel Cartori'],
+       #               'day_4': ['Roberto Pereira Ramos Jr'],
+       #               'day_5': ['josé Ricardo Santana']
+       #        }
+       # },
        # {
        #        'week_number': 17,
        #        'week_start': '2021-08-29',
@@ -202,12 +202,12 @@ week_list = [
        #        'week_start' : '2021-09-05',
        #        'deponents': {}
        # },
-       {
-              'week_number': 18,
-              'week_start': '2021-09-12',
-              'deponents': {
-                     'day_3': ['Marcos Tolentino'],
-                     'day_4': ['Marconny Faria']
-              }
-       }
+       # {
+       #        'week_number': 18,
+       #        'week_start': '2021-09-12',
+       #        'deponents': {
+       #               'day_3': ['Marcos Tolentino'],
+       #               'day_4': ['Marconny Faria']
+       #        }
+       # }
 ]
