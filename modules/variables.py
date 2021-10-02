@@ -33,7 +33,8 @@ hashtag_media = [
        'jr1', 'globonews25anos', 'mourabrasilnabandnewsfm', 'salvesalvebandnews', 'felipemourabrasil',
        'jornaldamanha', 'ospingosnosis', 'tecnohour', 'diáriosemanal', 'bandnoticias',
        'jornaldacnn', 'thevoicekids', 'globonewsnuncadesliga', 'tvcultura', 'manoamano',
-       'cnnnovodia', 'hnt', 'livecnnbrasil', 'acessolivre', 'materia', 'artigo'
+       'cnnnovodia', 'hnt', 'livecnnbrasil', 'acessolivre', 'materia', 'artigo', 'cnndomingo',
+       'ostrêspoderes', 'f'
 ]
 
 week_list = [
@@ -202,12 +203,12 @@ week_list = [
        #        'week_start' : '2021-09-05',
        #        'deponents': {}
        # },
-       # {
-       #        'week_number': 18,
-       #        'week_start': '2021-09-12',
-       #        'deponents': {
-       #               'day_3': ['Marcos Tolentino'],
-       #               'day_4': ['Marconny Faria']
-       #        }
-       # }
+       {
+              'week_number': 18,
+              'week_start': '2021-09-12',
+              'deponents': {
+                     'day_3': ['Marcos Tolentino'],
+                     'day_4': ['Marconny Faria']
+              }
+       }
 ]
