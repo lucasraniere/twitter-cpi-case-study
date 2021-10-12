@@ -34,7 +34,8 @@ hashtag_media = [
        'jornaldamanha', 'ospingosnosis', 'tecnohour', 'diáriosemanal', 'bandnoticias',
        'jornaldacnn', 'thevoicekids', 'globonewsnuncadesliga', 'tvcultura', 'manoamano',
        'cnnnovodia', 'hnt', 'livecnnbrasil', 'acessolivre', 'materia', 'artigo', 'cnndomingo',
-       'ostrêspoderes', 'f'
+       'ostrêspoderes', 'f', 'cnnbrasil360', 'estúdioi', 'rádiopt', 'direitosnarede', 'redeptribeirao',
+       'portalr7', 'globoplay', 'entretenimento'
 ]
 
 week_list = [
@@ -203,12 +204,39 @@ week_list = [
        #        'week_start' : '2021-09-05',
        #        'deponents': {}
        # },
+       # {
+       #        'week_number': 18,
+       #        'week_start': '2021-09-12',
+       #        'deponents': {
+       #               'day_3': ['Marcos Tolentino'],
+       #               'day_4': ['Marconny Faria']
+       #        }
+       # }
+       # {
+       #        'week_number': 19,
+       #        'week_start': '2021-09-19',
+       #        'deponents': {
+       #               'day_3': ['Wagner Rosário'],
+       #               'day_4': ['Pedro Benedito'],
+       #               'day_5': ['Danilo Trento']
+       #        }
+       # },
+       # {
+       #        'week_number': 20,
+       #        'week_start': '2021-09-26',
+       #        'deponents': {
+       #               'day_3': ['Bruna Morato'],
+       #               'day_4': ['Luciano Hang'],
+       #               'day_5': ['Otávio Fakhoury']
+       #        }
+       # }
        {
-              'week_number': 18,
-              'week_start': '2021-09-12',
+              'week_number': 21,
+              'week_start': '2021-10-03',
               'deponents': {
-                     'day_3': ['Marcos Tolentino'],
-                     'day_4': ['Marconny Faria']
+                     'day_3': ['Raimundo Nonato Basil'],
+                     'day_5': ['Paulo Rebeiro Filho'],
+                     'day_6': ['Walter Correa de Souza Netto', 'Tadeu Frederico Andrade']
               }
        }
 ]
