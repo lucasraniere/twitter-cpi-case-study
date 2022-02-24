@@ -35,7 +35,9 @@ hashtag_media = [
        'jornaldacnn', 'thevoicekids', 'globonewsnuncadesliga', 'tvcultura', 'manoamano',
        'cnnnovodia', 'hnt', 'livecnnbrasil', 'acessolivre', 'materia', 'artigo', 'cnndomingo',
        'ostrêspoderes', 'f', 'cnnbrasil360', 'estúdioi', 'rádiopt', 'direitosnarede', 'redeptribeirao',
-       'portalr7', 'globoplay', 'entretenimento'
+       'portalr7', 'globoplay', 'entretenimento', 'notíciastf', 'radiojustica', 'rádiogaúcha', 'gaúchaatualidade',
+       'novoestadaoimpresso', 'veja', 'biroscanews', 'portaldozacaria', 'oassunto', 'g1rn', 'agita40',
+       'afazenda', 'kpop', 'anime'
 ]
 
 week_list = [
@@ -238,11 +240,11 @@ week_list = [
        #              'day_5': ['Paulo Rebeiro Filho'],
        #              'day_6': ['Walter Correa de Souza Netto', 'Tadeu Frederico Andrade']
        #       },
-       {
-       'week_number': 'pr_04',
-              'week_start': '2021-10-10',
-              'deponents': {}
-       },
+       #{
+       #'week_number': 'pr_04',
+       #       'week_start': '2021-10-10',
+       #       'deponents': {}
+       #},
        {
               'week_number': 22,
               'week_start': '2021-10-17',
