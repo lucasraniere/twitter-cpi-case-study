@@ -245,11 +245,11 @@ week_list = [
        #       'week_start': '2021-10-10',
        #       'deponents': {}
        #},
-       {
-              'week_number': 22,
-              'week_start': '2021-10-17',
-              'deponents': {
-                     'day_3': ['Elton da Silva Chaves']
-              }
-       }
+       #{
+       #       'week_number': 22,
+       #       'week_start': '2021-10-17',
+       #       'deponents': {
+       #              'day_3': ['Elton da Silva Chaves']
+       #       }
+       #}
 ]
