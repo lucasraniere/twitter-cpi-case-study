@@ -7,3 +7,4 @@ credentials.py
 *.parquet
 *.gexf
 *.png
+/toxic_bert_model/*
