@@ -6,6 +6,7 @@ import re, string, nltk, emoji, spacy
 
 nlp = spacy.load('pt_core_news_sm')
 stop_words = nltk.corpus.stopwords.words('portuguese')
+stop_words.extend(['pra', 'tá', 'ta', 'tão', 'porque'])
 
 def remove_emoji(tweet):
     emoji_pattern = re.compile("["
@@ -108,8 +109,19 @@ def no_emoji_pipeline(txt: str):
     txt_ = remove_link(txt_)
     txt_ = remove_punctuation(txt_)
     txt_ = re.sub(r'[\d]', ' ', txt_)
-    txt_ = ' '.join([word for word in word_tokenize(txt_) if len(word)>1 and word not in stop_words])
+    txt_ = ' '.join([word for word in word_tokenize(txt_) if len(word)>3 and word not in stop_words])
     return unidecode(txt_)
+
+def no_mention_no_emoji_pipeline(txt: str):
+    txt_ = txt.lower()
+    txt_ = remove_emoji(txt_)
+    txt_ = remove_mention(txt_)
+    txt_ = remove_av(txt_)
+    txt_ = remove_link(txt_)
+    txt_ = remove_punctuation(txt_)
+    txt_ = re.sub(r'[\d]', ' ', txt_)
+    txt_ = ' '.join([word for word in word_tokenize(txt_) if len(word)>1 and word not in stop_words])
+    return (txt_)
 
 def return_tokens(txt: str):
     return word_tokenize(txt)
