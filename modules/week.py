@@ -1,3 +1,10 @@
+'''
+This module contains the week class.
+
+This class is used to structure the data in
+extraction process.
+'''
+
 import datetime
 
 class Week:
